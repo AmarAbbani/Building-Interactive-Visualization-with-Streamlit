@@ -10,7 +10,7 @@ st.title("Hello")
 
 import pandas as pd
 import plotly.express as px
-df= pd.read_csv("/Users/amarabbani/Desktop/Activity.csv")
+df= pd.read_csv("Activity.csv")
 
 
 if st.checkbox("show Activity Dataset"):
