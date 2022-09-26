@@ -43,7 +43,7 @@ st.balloons()
 st.snow()
 
 from PIL import Image
-image = Image.open('/Users/amarabbani/Downloads/image.png')
+image = Image.open('image.png')
 
 st.image(image, caption='Exercise activity')
 
